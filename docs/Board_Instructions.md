@@ -46,7 +46,7 @@
 | <img src="https://www.waveshare.com/w/upload/5/5f/ESP32-S3-Touch-LCD-1.85_Entity.jpg" width="150"> | [ESP32-S3-Touch-LCD-1.85](https://www.waveshare.com/esp32-s3-touch-lcd-1.85.htm) | QSPI |       ST77916       |      360x360       |      I2C      |        CST816         |
 | <img src="https://www.waveshare.com/w/upload/thumb/1/10/ESP32-S3-Touch-LCD-2.1.jpg/300px-ESP32-S3-Touch-LCD-2.1.jpg" width="150"> | [ESP32-S3-Touch-LCD-1.85](https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm) | RGB |       ST7701       |      480x480       |      I2C      |        CST820 (CST816-like)         |
 
-## [Waveshare](https://viewedisplay.com/)
+## [VIEWE](https://viewedisplay.com/)
 
 |                                                                                                                                       **Picture**                                                                                                                                       |                                                **Name**                                                 |   **LCD Bus**    | **LCD Controller** | **LCD resolution** | **Touch Bus** | **Touch Controller** |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------: | :----------------: | ------------------ | :-----------: | :------------------: |
