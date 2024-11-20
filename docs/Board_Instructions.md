@@ -46,6 +46,12 @@
 | <img src="https://www.waveshare.com/w/upload/5/5f/ESP32-S3-Touch-LCD-1.85_Entity.jpg" width="150"> | [ESP32-S3-Touch-LCD-1.85](https://www.waveshare.com/esp32-s3-touch-lcd-1.85.htm) | QSPI |       ST77916       |      360x360       |      I2C      |        CST816         |
 | <img src="https://www.waveshare.com/w/upload/thumb/1/10/ESP32-S3-Touch-LCD-2.1.jpg/300px-ESP32-S3-Touch-LCD-2.1.jpg" width="150"> | [ESP32-S3-Touch-LCD-1.85](https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm) | RGB |       ST7701       |      480x480       |      I2C      |        CST820 (CST816-like)         |
 
+## [Waveshare](https://viewedisplay.com/)
+
+|                                                                                                                                       **Picture**                                                                                                                                       |                                                **Name**                                                 |   **LCD Bus**    | **LCD Controller** | **LCD resolution** | **Touch Bus** | **Touch Controller** |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------: | :----------------: | ------------------ | :-----------: | :------------------: |
+| <img src="https://viewedisplay.com/wp-content/uploads/2024/11/UEDX24320024E-WB-A.jpg" width="150"> | [ESP32-S3-Touch-LCD-2.4](https://viewedisplay.com/product/esp32-2-4-inch-240x320-rgb-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/) | RGB |       ST7701       |      480x480       |      I2C      |        CST820 (CST816-like)         |
+
 ## Recommended Configurations in the Arduino IDE
 
 Below are recommended configurations for developing GUI applications on different development boards. These settings can be adjusted according to specific requirements, and users can navigate to the `Tools` menu in the Arduino IDE to configure the following settings.

@@ -1,5 +1,11 @@
 # ChangeLog
 
+## v0.1.10 - 2024-11-21
+
+* feat(board): add support for VIEWE
+* feat(touch): add support for CHSC6540
+* feat(touch): add support for CST820
+
 ## v0.1.9 - 2024-10-29
 
 * feat(board): add support for Waveshare ESP32-S3-Touch-LCD-2.1

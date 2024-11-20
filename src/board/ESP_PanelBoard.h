@@ -15,8 +15,11 @@
     defined(BOARD_ESP32_S3_LCD_EV_BOARD_V1_5) +  defined(BOARD_ESP32_S3_LCD_EV_BOARD_2) + \
     defined(BOARD_ESP32_S3_LCD_EV_BOARD_2_V1_5) + defined(BOARD_ESP32_S3_USB_OTG) +  defined(BOARD_ELECROW_CROWPANEL_7_0) + \
     defined(BOARD_M5STACK_M5CORE2) + defined(BOARD_M5STACK_M5DIAL) + defined(BOARD_M5STACK_M5CORES3) + \
-    defined(BOARD_ESP32_4848S040C_I_Y_3) + defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_4_3) + defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_1_85) + \
-    defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_2_1)    \
+    defined(BOARD_ESP32_4848S040C_I_Y_3) + defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_4_3) + \
+    defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_1_85) + defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_2_1) + \
+    defined(BOARD_VIEWE_ESP_S3_Touch_LCD_70) + defined(BOARD_VIEWE_ESP_S3_Touch_FT5x06_LCD_50) + defined(BOARD_VIEWE_ESP_S3_Touch_LCD_50_V1) + \
+    defined(BOARD_VIEWE_ESP_S3_Touch_LCD_43) + defined(BOARD_VIEWE_ESP_S3_Touch_LCD_40) + defined(BOARD_VIEWE_ESP_S3_Touch_LCD_24) + \
+    defined(BOARD_VIEWE_ESP_S3_Touch_LCD_35) + defined(BOARD_VIEWE_ESP_S3_Touch_LCD_19) + defined(BOARD_VIEWE_ESP_S3_Knob_LCD_21)\
     > 1
     #error "Multiple boards enabled! Please check file `ESP_Panel_Board_Supported.h` and make sure only one board is enabled."
 #endif
@@ -67,6 +70,25 @@
     #include "board/waveshare/ESP32_S3_Touch_LCD_1_85.h"
 #elif defined(BOARD_WAVESHARE_ESP32_S3_Touch_LCD_2_1) || CONFIG_BOARD_WAVESHARE_ESP32_S3_Touch_LCD_2_1
     #include "board/waveshare/ESP32_S3_Touch_LCD_2_1.h"
+/* viewe */
+#elif defined(BOARD_VIEWE_ESP_S3_Knob_LCD_21) || CONFIG_BOARD_VIEWE_ESP_S3_Knob_LCD_21
+    #include "board/viewe/viewe_panel_48480021.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_19) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_19
+    #include "board/viewe/viewe_panel_32170019.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_24) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_24
+    #include "board/viewe/viewe_panel_24320024.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_35) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_35
+    #include "board/viewe/viewe_panel_32480035.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_40) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_40
+    #include "board/viewe/viewe_panel_4848040.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_43) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_43
+    #include "board/viewe/viewe_panel_8048043.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_50_V1) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_50_V1
+    #include "board/viewe/viewe_panel_8048050.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_FT5x06_LCD_50) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_FT5x06_LCD_50
+    #include "board/viewe/viewe_panel2_8048050.h"
+#elif defined(BOARD_VIEWE_ESP_S3_Touch_LCD_70) || CONFIG_BOARD_VIEWE_ESP_S3_Touch_LCD_70
+    #include "board/viewe/viewe_panel_8048070.h"
 #else
     #error "Unknown board selected! Please check file `ESP_Panel_Board_Supported.h` and make sure only one board is enabled."
 #endif

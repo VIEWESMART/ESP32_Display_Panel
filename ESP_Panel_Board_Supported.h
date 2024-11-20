@@ -47,6 +47,36 @@
 // #define BOARD_ESP32_S3_USB_OTG
 
 /*
+ * VIEWE Supported Boards (https://viewedisplay.com/):
+ *  
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_19(UEDX17320019E-WB-A):https://viewedisplay.com/product/esp32-1-9-inch-170x320-mcu-ips-tft-display-touch-screen-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Knob_LCD_21(UEDX48480021-MD80E):https://viewedisplay.com/product/esp32-2-1-inch-480x480-round-tft-knob-display-rotary-encoder-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_24(UEDX24320024E-WB-A):https://viewedisplay.com/product/esp32-2-4-inch-240x320-rgb-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_28(UEDX24320028E-WB-A):https://viewedisplay.com/product/esp32-2-8-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_L(UEDX24320035E-WB-A):https://viewedisplay.com/product/esp32-3-5-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_H(UEDX32480035E-WB-A):https://github.com/VIEWESMART/Product-Specification-and-Schematic/blob/main/ESP32/3.5inch/320480/UEDX32480035E-WB-A%20SPEC.pdf
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_40(DX48480040E-WB-A):https://viewedisplay.com/product/esp32-4-inch-tft-display-touch-screen-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_43(UEDX80480070E-WB-A):https://viewedisplay.com/product/esp32-4-3-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Touch_GT911_LCD_50(UEDX80480050E-WB-A):https://viewedisplay.com/product/esp32-5-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_70(UEDX80480070E-WB-A):https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/
+ *
+ */
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_19
+/* 
+ * 2.4(240*320) inch screen:BOARD_VIEWE_ESP_S3_Touch_LCD_24, 
+ * 2.8(240*320) inch screen:BOARD_VIEWE_ESP_S3_Touch_LCD_28, 
+ * 3.5(240*320) inch screen:BOARD_VIEWE_ESP_S3_Touch_LCD_35L, 
+ * general purpose BOARD_VIEWE_ESP_S3_Touch_LCD_24
+ */
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_24  
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_35  //3.5(320*480) inch screen:BOARD_VIEWE_ESP_S3_Touch_LCD_35_H
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_40
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_43
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_50_V1
+// #define BOARD_VIEWE_ESP_S3_Touch_LCD_70
+
+
+/*
  * Elecrow (https://www.elecrow.com):
  *
  *  - BOARD_ELECROW_CROWPANEL_7_0 (ELECROW_CROWPANEL_7_0): https://www.elecrow.com/esp32-display-7-inch-hmi-display-rgb-tft-lcd-touch-screen-support-lvgl.html
@@ -86,6 +116,8 @@
 // #define BOARD_WAVESHARE_ESP32_S3_Touch_LCD_1_85
 // #define BOARD_WAVESHARE_ESP32_S3_Touch_LCD_2_1
 
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////// File Version ///////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -102,6 +134,6 @@
  */
 #define ESP_PANEL_BOARD_SUPPORTED_FILE_VERSION_MAJOR 0
 #define ESP_PANEL_BOARD_SUPPORTED_FILE_VERSION_MINOR 5
-#define ESP_PANEL_BOARD_SUPPORTED_FILE_VERSION_PATCH 1
+#define ESP_PANEL_BOARD_SUPPORTED_FILE_VERSION_PATCH 2
 
 #endif
