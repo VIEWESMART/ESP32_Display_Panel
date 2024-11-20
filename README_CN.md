@@ -41,6 +41,7 @@ ESP32_Display_Panel 的功能框图如下所示，主要包含以下特性：
 | [Elecrow](docs/Board_Instructions.md#elecrow) | CrowPanel 7.0" |
 | [Jingcai](docs/Board_Instructions.md#shenzhen-jingcai-intelligent) | ESP32-4848S040C_I_Y_3 |
 | [Waveshare](docs/Board_Instructions.md#waveshare) | ESP32-S3-Touch-LCD-4.3, ESP32-S3-Touch-LCD-1.85, ESP32-S3-Touch-LCD-2.1 |
+| [VIEWE](docs/Board_Instructions.md#viewe) | VIEWE_ESP_S3_Touch_LCD_19(UEDX17320019E-WB-A), VIEWE_ESP_S3_Knob_LCD_21(UEDX48480021-MD80E), VIEWE_ESP_S3_Touch_LCD_24(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_28(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_35_L(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_35_H(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_40(DX48480040E-WB-A), VIEWE_ESP_S3_Touch_LCD_43(UEDX80480070E-WB-A), VIEWE_ESP_S3_Touch_LCD_50_V1(UEDX80480050E-WB-A),VIEWE_ESP_S3_Touch_LCD_70(UEDX80480070E-WB-A)|
 
 欢迎开发者和厂商贡献 PR 来添加更多的开发板，详细说明请参考 [`开发板贡献指南`](./docs/Board_Contribution_Guide_CN.md)。
 
@@ -62,12 +63,13 @@ ESP32_Display_Panel 的功能框图如下所示，主要包含以下特性：
 
 | **厂商** | **型号** |
 | -------- | -------- |
-| Hynitron | CST816S |
+| Hynitron | CST816S, CST820 |
 | FocalTech | FT5x06 |
 | GOODiX | GT911, GT1151 |
 | Sitronix | ST7123 |
 | Parade | TT21100 |
 | Xptek | XPT2046 |
+|Chipsemicorp | CHSC6540 |
 
 ## 常见问题解答
 
