@@ -41,6 +41,7 @@ Below is the list of [supported development boards](docs/Board_Instructions.md):
 | [M5Stack](docs/Board_Instructions.md#m5stack) | M5STACK-M5CORE2, M5STACK-M5DIAL, M5STACK-M5CORES3 |
 | [Jingcai](docs/Board_Instructions.md#shenzhen-jingcai-intelligent) | ESP32-4848S040C_I_Y_3 |
 | [Waveshare](docs/Board_Instructions.md#waveshare) | ESP32-S3-Touch-LCD-4.3, ESP32-S3-Touch-LCD-1.85, ESP32-S3-Touch-LCD-2.1 |
+| [VIEWE](docs/Board_Instructions.md#viewe) | VIEWE_ESP_S3_Touch_LCD_19(UEDX17320019E-WB-A), VIEWE_ESP_S3_Knob_LCD_21(UEDX48480021-MD80E), VIEWE_ESP_S3_Touch_LCD_24(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_28(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_35_L(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_35_H(UEDX24320028E-WB-A), VIEWE_ESP_S3_Touch_LCD_40(DX48480040E-WB-A), VIEWE_ESP_S3_Touch_LCD_43(UEDX80480070E-WB-A), VIEWE_ESP_S3_Touch_LCD_50_V1(UEDX80480050E-WB-A),VIEWE_ESP_S3_Touch_LCD_70(UEDX80480070E-WB-A)|
 
 Developers and manufacturers are welcome to contribute PRs to add more boards. For details, please refer to the [Board Contribution Guide](./docs/Board_Contribution_Guide.md).
 
@@ -62,12 +63,13 @@ Below is the list of [supported touch controllers](docs/Touch_Controllers.md):
 
 | **Manufacturer** | **Model** |
 | ---------------- | --------- |
-| Hynitron | CST816S |
+| Hynitron | CST816S, CST820 |
 | FocalTech | FT5x06 |
 | GOODiX | GT911, GT1151 |
 | Sitronix | ST7123 |
 | Parade | TT21100 |
 | Xptek | XPT2046 |
+|Chipsemicorp | CHSC6540 |
 
 ## FAQ
 
