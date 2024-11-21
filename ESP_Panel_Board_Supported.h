@@ -51,13 +51,13 @@
  *  
  *  - BOARD_VIEWE_ESP_S3_Touch_LCD_19(UEDX17320019E-WB-A):https://viewedisplay.com/product/esp32-1-9-inch-170x320-mcu-ips-tft-display-touch-screen-arduino-lvgl/
  *  - BOARD_VIEWE_ESP_S3_Knob_LCD_21(UEDX48480021-MD80E):https://viewedisplay.com/product/esp32-2-1-inch-480x480-round-tft-knob-display-rotary-encoder-arduino-lvgl/
- *  - BOARD_VIEWE_ESP_S3_Touch_LCD_24(UEDX24320024E-WB-A):https://viewedisplay.com/product/esp32-2-4-inch-240x320-rgb-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_24(UEDX24320028E-WB-A):https://viewedisplay.com/product/esp32-2-4-inch-240x320-rgb-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
  *  - BOARD_VIEWE_ESP_S3_Touch_LCD_28(UEDX24320028E-WB-A):https://viewedisplay.com/product/esp32-2-8-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
- *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_L(UEDX24320035E-WB-A):https://viewedisplay.com/product/esp32-3-5-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
- *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_H(UEDX32480035E-WB-A):https://github.com/VIEWESMART/Product-Specification-and-Schematic/blob/main/ESP32/3.5inch/320480/UEDX32480035E-WB-A%20SPEC.pdf
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_L(UEDX24320028E-WB-A):https://viewedisplay.com/product/esp32-3-5-inch-240x320-mcu-ips-tft-display-touch-screen-arduino-lvgl-wifi-ble-uart-smart-module/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_35_H(UEDX24320028E-WB-A):https://github.com/VIEWESMART/Product-Specification-and-Schematic/blob/main/ESP32/3.5inch/320480/UEDX32480035E-WB-A%20SPEC.pdf
  *  - BOARD_VIEWE_ESP_S3_Touch_LCD_40(DX48480040E-WB-A):https://viewedisplay.com/product/esp32-4-inch-tft-display-touch-screen-arduino-lvgl/
  *  - BOARD_VIEWE_ESP_S3_Touch_LCD_43(UEDX80480070E-WB-A):https://viewedisplay.com/product/esp32-4-3-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/
- *  - BOARD_VIEWE_ESP_S3_Touch_GT911_LCD_50(UEDX80480050E-WB-A):https://viewedisplay.com/product/esp32-5-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/
+ *  - BOARD_VIEWE_ESP_S3_Touch_LCD_50_V1(UEDX80480050E-WB-A):https://viewedisplay.com/product/esp32-5-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/
  *  - BOARD_VIEWE_ESP_S3_Touch_LCD_70(UEDX80480070E-WB-A):https://viewedisplay.com/product/esp32-7-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl-uart/
  *
  */
